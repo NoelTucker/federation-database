@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+  <defs>
+    <radialGradient r="1" id="gradientGray">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="025%" stop-color="#d9d9d9"/>
+      <stop offset="075%" stop-color="#616161"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <polygon points="40.000,80.000 08.727,64.940 24.363,52.470 40.000,60.000" fill="url(#gradientGray)"/>
+    <polygon points="08.727,64.940 01.003,31.099 20.501,35.550 24.363,52.470" fill="url(#gradientGray)"/>
+    <polygon points="01.003,31.099 22.645,03.961 31.322,21.981 20.501,35.550" fill="url(#gradientGray)"/>
+    <polygon points="22.645,03.961 57.355,03.961 48.678,21.981 31.322,21.981" fill="url(#gradientGray)"/>
+    <polygon points="57.355,03.961 78.997,31.099 59.499,35.550 48.678,21.981" fill="url(#gradientGray)"/>
+    <polygon points="78.997,31.099 71.273,64.940 55.637,52.470 59.499,35.550" fill="url(#gradientGray)"/>
+    <polygon points="71.273,64.940 40.000,80.000 40.000,60.000 55.637,52.470" fill="url(#gradientGray)"/>
+  </g>
+</svg>

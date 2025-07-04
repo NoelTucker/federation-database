@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="44">
+  <defs>
+    <radialGradient cx="1.0" cy="0" r="1.1" id="gradientBorder">
+      <stop offset="000%" stop-color="#ebebeb"/>
+      <stop offset="100%" stop-color="#9c9c9c"/>
+    </radialGradient>
+    <radialGradient cx="1.0" cy="0" r="2.2" id="gradientGray">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="025%" stop-color="#cccccc"/>
+      <stop offset="050%" stop-color="#797979"/>
+      <stop offset="075%" stop-color="#333333"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient cx="1.5" cy="0" r="2.0" id="gradientBlack">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="010%" stop-color="#555555"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <rect x="01" y="1" rx="4" width="76" height="42" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="2"/>
+  <rect x="07" y="5" rx="2" width="31" height="34" fill="url(#gradientGray)"/>
+  <rect x="15" y="7" rx="2" width="15" height="30" fill="url(#gradientGray)" stroke="url(#gradientBlack)" stroke-width="1"/>
+  <rect x="40" y="5" rx="2" width="31" height="34" fill="url(#gradientGray)"/>
+  <rect x="48" y="7" rx="2" width="15" height="30" fill="url(#gradientGray)" stroke="url(#gradientBlack)" stroke-width="1"/>
+</svg>
