@@ -23,7 +23,7 @@ document.querySelector('#element-eight').outerHTML = `
     </footer>
   </article>
   <a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
-  <div id="button-one" class="gray"><span class="button-margin">LCARS 42028</span></div>
+  <div id="button-one" class="gray button-margin">LCARS 42028</div>
   <div id="button-two" class="orange"><span class="button-margin">6539-456</span></div>
   <div id="button-three" class="button orange"><span class="button-margin">01-558695</span></div>
   <div id="button-four" class="button orange"><span class="button-margin">02-771423</span></div>
