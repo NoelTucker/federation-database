@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="34">
+  <defs>
+    <radialGradient cx="1.0" cy="0" r="1.1" id="gradientBorder">
+      <stop offset="000%" stop-color="#ebebeb"/>
+      <stop offset="100%" stop-color="#9c9c9c"/>
+    </radialGradient>
+    <radialGradient cx="1.5" cy="0" r="2.0" id="gradientBlack">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="010%" stop-color="#555555"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <rect x="00" y="0" rx="2" width="31" height="34" fill="url(#gradientBlack)"/>
+  <rect x="08" y="2" rx="2" width="15" height="30" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="1"/>
+  <rect x="33" y="0" rx="2" width="31" height="34" fill="url(#gradientBlack)"/>
+  <rect x="41" y="2" rx="2" width="15" height="30" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="1"/>
+  <rect x="66" y="0" rx="2" width="31" height="34" fill="url(#gradientBlack)"/>
+  <rect x="74" y="2" rx="2" width="15" height="30" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="1"/>
+</svg>

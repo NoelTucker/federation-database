@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="203" height="44">
+  <defs>
+    <radialGradient cx="1.0" cy="0" r="1.1" id="gradientBorder">
+      <stop offset="000%" stop-color="#ebebeb"/>
+      <stop offset="100%" stop-color="#9c9c9c"/>
+    </radialGradient>
+    <radialGradient cx="1.5" cy="0" r="2.0" id="gradientBlack">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="010%" stop-color="#555555"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <rect x="00" y="0" rx="4" width="145" height="44" transform="skewX(+33)" id="rankBarOuterLeft"/>
+    <rect x="58" y="0" rx="4" width="145" height="44" transform="skewX(-33)" id="rankBarOuterRight"/>
+    <rect x="02" y="2" rx="4" width="141" height="40" transform="skewX(+33)" id="rankBarInnerLeft"/>
+    <rect x="60" y="2" rx="4" width="141" height="40" transform="skewX(-33)" id="rankBarInnerRight"/>
+    <clipPath id="rankBarOuter">
+      <use href="#rankBarOuterLeft"/>
+      <use href="#rankBarOuterRight"/>
+    </clipPath>
+    <clipPath id="rankBarInner">
+      <use href="#rankBarInnerLeft"/>
+      <use href="#rankBarInnerRight"/>
+    </clipPath>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gradientBorder)" clip-path="url(#rankBarOuter)"/>
+  <rect width="100%" height="100%" fill="url(#gradientBlack)" clip-path="url(#rankBarInner)"/>
+  <circle cx="046" cy="22" r="14" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="2"/>
+  <circle cx="083" cy="22" r="14" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="2"/>
+  <circle cx="120" cy="22" r="14" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="2"/>
+  <circle cx="157" cy="22" r="14" fill="url(#gradientBlack)" stroke="url(#gradientBorder)" stroke-width="2"/>
+</svg>

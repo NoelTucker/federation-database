@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+  <defs>
+    <radialGradient r="1" id="gradientGray">
+      <stop offset="000%" stop-color="#ffffff"/>
+      <stop offset="025%" stop-color="#d9d9d9"/>
+      <stop offset="075%" stop-color="#616161"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <polygon points="40.000,80.000 05.359,20.000 22.679,30.000 40.000,60.000" fill="url(#gradientGray)"/>
+    <polygon points="05.359,20.000 74.641,20.000 57.321,30.000 22.679,30.000" fill="url(#gradientGray)"/>
+    <polygon points="74.641,20.000 40.000,80.000 40.000,60.000 57.321,30.000" fill="url(#gradientGray)"/>
+  </g>
+</svg>

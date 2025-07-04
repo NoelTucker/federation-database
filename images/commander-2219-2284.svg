@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80">
+  <defs>
+    <linearGradient id="gradientGold">
+      <stop offset="000%" stop-color="#995500"/>
+      <stop offset="025%" stop-color="#ccaa22"/>
+      <stop offset="075%" stop-color="#ccaa22"/>
+      <stop offset="100%" stop-color="#995500"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="00" width="150" height="20" fill="url('#gradientGold')"/>
+  <rect x="0" y="30" width="150" height="20" fill="url('#gradientGold')"/>
+  <rect x="0" y="60" width="150" height="20" fill="url('#gradientGold')"/>
+</svg>

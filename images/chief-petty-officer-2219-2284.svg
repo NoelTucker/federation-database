@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="210">
+  <defs>
+    <linearGradient id="gradientDotted">
+      <stop offset="000.0%" stop-color="#995500ff"/>
+      <stop offset="025.0%" stop-color="#ccaa22ff"/>
+      <stop offset="025.0%" stop-color="#00000000"/>
+      <stop offset="037.5%" stop-color="#00000000"/>
+      <stop offset="037.5%" stop-color="#ccaa22ff"/>
+      <stop offset="062.5%" stop-color="#ccaa22ff"/>
+      <stop offset="062.5%" stop-color="#00000000"/>
+      <stop offset="075.0%" stop-color="#00000000"/>
+      <stop offset="075.0%" stop-color="#ccaa22ff"/>
+      <stop offset="100.0%" stop-color="#995500ff"/>
+    </linearGradient>
+    <linearGradient id="gradientGold">
+      <stop offset="000%" stop-color="#995500"/>
+      <stop offset="025%" stop-color="#ccaa22"/>
+      <stop offset="075%" stop-color="#ccaa22"/>
+      <stop offset="100%" stop-color="#995500"/>
+    </linearGradient>
+  </defs>
+  <rect x="05" y="005" width="140" height="200" fill="none" stroke="url('#gradientGold')" stroke-width="10"/>
+  <rect x="20" y="170" width="110" height="020" fill="url('#gradientDotted')"/>
+  <rect x="20" y="140" width="110" height="020" fill="url('#gradientDotted')"/>
+</svg>
