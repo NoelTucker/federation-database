@@ -1,12 +1,12 @@
 // Stylesheet link
 const styling = document.head.appendChild(document.createElement('link'));
 styling.rel = 'stylesheet';
-styling.href = '../styles/style.css';
+styling.href = 'https://noeltucker.github.io/federation-database/styles/style.css';
 
 // Favicon
 const favicon = document.head.appendChild(document.createElement('link'));
 favicon.rel = 'icon';
-favicon.href = '../images/favicon.svg';
+favicon.href = 'https://noeltucker.github.io/federation-database/images/favicon.svg';
 
 // Infobox image gallery
 window.addEventListener('load', () => {
