@@ -23,26 +23,26 @@ document.querySelector('#element-eight').outerHTML = `
     </footer>
   </article>
   <a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
-  <a id="button-one" class="gray"><span class="button-margin">Lock Search History</span></a>
-  <a id="button-two" class="orange"><span class="button-margin">Unlock Search History</span></a>
-  <a id="button-three" class="button orange"><span class="button-margin">Create Shortcut</span></a>
-  <a id="button-four" class="button orange"><span class="button-margin">Edit File</span></a>
-  <a id="button-five" class="button orange"><span class="button-margin">View File History</span></a>
-  <a id="button-six" class="button gray"><span class="button-margin">View Search History</span></a>
-  <a id="button-seven" class="button gray"><span class="button-margin">Delete Search History</span></a>
-  <a id="button-eight" class="button orange"><span class="button-margin">Restore Search History</span></a>
-  <a id="button-nine" class="button gray"><span class="button-margin">Recalibrate</span></a>
-  <a id="button-ten" class="button gray"><span class="button-margin">Close</span></a>
-  <a id="button-eleven" class="button gray"><span class="button-margin">Numbers</span></a>
-  <a id="button-twelve" class="button gray"><span class="button-margin">Letters</span></a>
-  <a id="button-thirteen" class="button gray"><span class="button-margin">Shift</span></a>
-  <a id="button-fourteen" class="button gray"><span class="button-margin">Space</span></a>
-  <a id="button-fifteen" class="button orange"><span class="button-margin">Backspace</span></a>
-  <a id="button-sixteen" class="button orange"><span class="button-margin">Search</span></a>
-  <a id="button-seventeen" class="button gray"><span class="button-margin">Articles</span></a>
-  <a id="button-eighteen" class="button gray"><span class="button-margin">Images</span></a>
-  <a id="button-nineteen" class="button gray"><span class="button-margin">Videos</span></a>
-  <a id="button-twenty" class="button gray"><span class="button-margin">Audio</span></a>
+  <div id="button-one" class="gray"><span class="button-margin">LCARS 42028</span></div>
+  <div id="button-two" class="orange"><span class="button-margin">6539-456</span></div>
+  <div id="button-three" class="button orange"><span class="button-margin">01-558695</span></div>
+  <div id="button-four" class="button orange"><span class="button-margin">02-771423</span></div>
+  <div id="button-five" class="button orange"><span class="button-margin">03-109549</span></div>
+  <div id="button-six" class="button gray"><span class="button-margin">04-896790</span></div>
+  <div id="button-seven" class="button gray"><span class="button-margin">05-947165</span></div>
+  <div id="button-eight" class="button orange"><span class="button-margin">06-906308</span></div>
+  <div id="button-nine" class="button gray"><span class="button-margin">Recalibrate</span></div>
+  <div id="button-ten" class="button gray"><span class="button-margin">Close</span></div>
+  <div id="button-eleven" class="button gray"><span class="button-margin">01-767386</span></div>
+  <div id="button-twelve" class="button gray"><span class="button-margin">02-406950</span></div>
+  <div id="button-thirteen" class="button gray"><span class="button-margin">03-883192</span></div>
+  <div id="button-fourteen" class="button gray"><span class="button-margin">04-547632</span></div>
+  <div id="button-fifteen" class="button orange"><span class="button-margin">05-521358</span></div>
+  <div id="button-sixteen" class="button orange"><span class="button-margin">06-684421</span></div>
+  <div id="button-seventeen" class="button gray"><span class="button-margin">01-906788</span></div>
+  <div id="button-eighteen" class="button gray"><span class="button-margin">02-786195</span></div>
+  <div id="button-nineteen" class="button gray"><span class="button-margin">03-855803</span></div>
+  <div id="button-twenty" class="button gray"><span class="button-margin">04-261697</span></div>
   <table id="cascade">
     <tbody>
       <tr class="row-one">
