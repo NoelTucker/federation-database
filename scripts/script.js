@@ -22,7 +22,7 @@ document.querySelector('#element-eight').outerHTML = `
       <p>All Star Trek trademarks and copyrights present in the Federation Database are owned by Paramount Global or an affiliated entity and are used here in a way believed to qualify as fair use under United States copyright law.</p>
     </footer>
   </article>
-  <a id="label" href="../articles/index.html">Federation Database</a>
+  <a id="label" href="https://noeltucker.github.io/federation-database/articles/index.html">Federation Database</a>
   <a id="button-one" class="gray"><span class="button-margin">Lock Search History</span></a>
   <a id="button-two" class="orange"><span class="button-margin">Unlock Search History</span></a>
   <a id="button-three" class="button orange"><span class="button-margin">Create Shortcut</span></a>
@@ -39,10 +39,10 @@ document.querySelector('#element-eight').outerHTML = `
   <a id="button-fourteen" class="button gray"><span class="button-margin">Space</span></a>
   <a id="button-fifteen" class="button orange"><span class="button-margin">Backspace</span></a>
   <a id="button-sixteen" class="button orange"><span class="button-margin">Search</span></a>
-  <a id="button-seventeen" class="button gray" href="../articles"><span class="button-margin">Articles</span></a>
-  <a id="button-eighteen" class="button gray" href="../images"><span class="button-margin">Images</span></a>
-  <a id="button-nineteen" class="button gray" href="../videos"><span class="button-margin">Videos</span></a>
-  <a id="button-twenty" class="button gray" href="../audio"><span class="button-margin">Audio</span></a>
+  <a id="button-seventeen" class="button gray" href="https://noeltucker.github.io/federation-database/articles"><span class="button-margin">Articles</span></a>
+  <a id="button-eighteen" class="button gray" href="https://noeltucker.github.io/federation-database/images"><span class="button-margin">Images</span></a>
+  <a id="button-nineteen" class="button gray" href="https://noeltucker.github.io/federation-database/videos"><span class="button-margin">Videos</span></a>
+  <a id="button-twenty" class="button gray" href="https://noeltucker.github.io/federation-database/audio"><span class="button-margin">Audio</span></a>
   <table id="cascade">
     <tbody>
       <tr class="row-one">
@@ -233,9 +233,9 @@ document.querySelector('#element-eight').outerHTML = `
 document.querySelectorAll('.gray').forEach((b) => {b.onclick = beep1});
 document.querySelectorAll('.orange').forEach((b) => {b.onclick = beep3});
 
-const beepOne = new Audio('../audio/beep-1.mp3');
-const beepTwo = new Audio('../audio/beep-2.mp3');
-const beepThree = new Audio('../audio/beep-3.mp3');
+const beepOne = new Audio('https://noeltucker.github.io/federation-database/audio/beep-1.mp3');
+const beepTwo = new Audio('https://noeltucker.github.io/federation-database/audio/beep-2.mp3');
+const beepThree = new Audio('https://noeltucker.github.io/federation-database/audio/beep-3.mp3');
 
 function beep1(){
   beepOne.play();
