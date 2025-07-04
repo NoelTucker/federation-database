@@ -22,7 +22,7 @@ document.querySelector('#element-eight').outerHTML = `
       <p>All Star Trek trademarks and copyrights present in the Federation Database are owned by Paramount Global or an affiliated entity and are used here in a way believed to qualify as fair use under United States copyright law.</p>
     </footer>
   </article>
-  <a id="label" href="https://noeltucker.github.io/federation-database/articles/index.html">Federation Database</a>
+  <a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
   <a id="button-one" class="gray"><span class="button-margin">Lock Search History</span></a>
   <a id="button-two" class="orange"><span class="button-margin">Unlock Search History</span></a>
   <a id="button-three" class="button orange"><span class="button-margin">Create Shortcut</span></a>
