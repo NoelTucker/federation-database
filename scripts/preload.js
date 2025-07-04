@@ -1,7 +1,7 @@
 // Stylesheet link
 const styling = document.head.appendChild(document.createElement('link'));
 styling.rel = 'stylesheet';
-styling.href = 'https://noeltucker.github.io/federation-database/styles/style.css';
+styling.href = 'https://noeltucker.github.io/federation-database/styles/styles.css';
 
 // Favicon
 const favicon = document.head.appendChild(document.createElement('link'));
