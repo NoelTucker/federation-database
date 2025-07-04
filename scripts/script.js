@@ -39,10 +39,10 @@ document.querySelector('#element-eight').outerHTML = `
   <a id="button-fourteen" class="button gray"><span class="button-margin">Space</span></a>
   <a id="button-fifteen" class="button orange"><span class="button-margin">Backspace</span></a>
   <a id="button-sixteen" class="button orange"><span class="button-margin">Search</span></a>
-  <a id="button-seventeen" class="button gray" href="https://noeltucker.github.io/federation-database/articles"><span class="button-margin">Articles</span></a>
-  <a id="button-eighteen" class="button gray" href="https://noeltucker.github.io/federation-database/images"><span class="button-margin">Images</span></a>
-  <a id="button-nineteen" class="button gray" href="https://noeltucker.github.io/federation-database/videos"><span class="button-margin">Videos</span></a>
-  <a id="button-twenty" class="button gray" href="https://noeltucker.github.io/federation-database/audio"><span class="button-margin">Audio</span></a>
+  <a id="button-seventeen" class="button gray"><span class="button-margin">Articles</span></a>
+  <a id="button-eighteen" class="button gray"><span class="button-margin">Images</span></a>
+  <a id="button-nineteen" class="button gray"><span class="button-margin">Videos</span></a>
+  <a id="button-twenty" class="button gray"><span class="button-margin">Audio</span></a>
   <table id="cascade">
     <tbody>
       <tr class="row-one">
