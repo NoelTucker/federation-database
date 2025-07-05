@@ -587,7 +587,7 @@ blockquote + div{
 
 #licensing th,
 #licensing td{
-  verticle-align:top;
+  vertical-align:top;
 }
 
 #licensing th::after{
