@@ -585,6 +585,10 @@ blockquote + div{
   width:min-content;
 }
 
+#licensing{
+  verticle-align:top;
+}
+
 #licensing th::after{
   content:':';
   font-weight:normal;
