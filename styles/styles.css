@@ -585,8 +585,7 @@ blockquote + div{
   width:min-content;
 }
 
-#licensing th,
-#licensing td{
+#licensing{
   vertical-align:top;
 }
 
