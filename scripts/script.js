@@ -269,7 +269,7 @@ function addHeadingIds(){
     let headingId = heading.innerText;
     headingId = headingId.toLowerCase();
     headingId = headingId.normalize('NFD').replace(/\p{Diacritic}/gu, '');
-    headingId = headingId.replace(/[\s\2013\2014]/g, '-');
+    headingId = headingId.replace(/[\s\u2013\u2014]/g, '-');
     headingId = headingId.replace(/([a-zA-Z])\./g, '$1');
     headingId = headingId.replace(/['":;,]/g, '');
     heading.id = headingId;
