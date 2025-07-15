@@ -1002,7 +1002,7 @@ blockquote + div{
     width:100%;
   }
   #element-eight .infoimg > div > a{
-    width:max-content;
+    width:50%;
   }
   .infoimg > div > a > img{
     width:100% !important;
