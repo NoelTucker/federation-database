@@ -1000,6 +1000,12 @@ blockquote + div{
     margin-bottom:20px;
     width:100%;
   }
+  .infoimg > div{
+    flex-wrap:wrap;
+  }
+  .infoimg > div > a{
+    width:max-content;
+  }
   .infoimg > div > a > img{
     width:100%;
   }
