@@ -523,6 +523,7 @@ blockquote + div{
 
 .infoimg > div{
   display:flex;
+  flex-wrap:wrap;
   gap:5px;
 }
 
@@ -999,9 +1000,6 @@ blockquote + div{
     margin-left:0;
     margin-bottom:20px;
     width:100%;
-  }
-  .infoimg > div{
-    flex-wrap:wrap;
   }
   #element-eight .infoimg > div > a{
     width:max-content;
