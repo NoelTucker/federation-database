@@ -1000,7 +1000,7 @@ blockquote + div{
     margin-bottom:20px;
     width:100%;
   }
-  .infoimg img{
+  .infoimg > div > a > img{
     width:100%;
   }
 }
