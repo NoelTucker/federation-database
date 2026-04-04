@@ -4,13 +4,13 @@ title.innerHTML = document.querySelector('h1').innerHTML === 'Home' ? 'Federatio
 
 // Design
 document.querySelector('#element-eight').outerHTML = `
-  <div id="element-one"></div>
-  <div id="element-two"></div>
-  <div id="element-three"></div>
-  <div id="element-four"></div>
-  <div id="element-five"></div>
-  <div id="element-six"></div>
-  <div id="element-seven"></div>
+  <div id="element-1"></div>
+  <div id="element-2"></div>
+  <div id="element-3"></div>
+  <div id="element-4"></div>
+  <div id="element-5"></div>
+  <div id="element-6"></div>
+  <div id="element-7"></div>
   <article id="element-eight">
     ${document.querySelector('#element-eight').innerHTML}
     <footer id="footer">
@@ -23,26 +23,26 @@ document.querySelector('#element-eight').outerHTML = `
     </footer>
   </article>
   <a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
-  <div id="button-one" class="gray"><span class="button-margin">LCARS 42028</span></div>
-  <div id="button-two" class="orange"><span class="button-margin">6539-456</span></div>
-  <div id="button-three" class="button orange"><span class="button-margin">01-558695</span></div>
-  <div id="button-four" class="button orange"><span class="button-margin">02-771423</span></div>
-  <div id="button-five" class="button orange"><span class="button-margin">03-109549</span></div>
-  <div id="button-six" class="button gray"><span class="button-margin">04-896790</span></div>
-  <div id="button-seven" class="button gray"><span class="button-margin">05-947165</span></div>
-  <div id="button-eight" class="button orange"><span class="button-margin">06-906308</span></div>
-  <div id="button-nine" class="button gray"><span class="button-margin">Recalibrate</span></div>
-  <div id="button-ten" class="button gray"><span class="button-margin">Close</span></div>
-  <div id="button-eleven" class="button gray"><span class="button-margin">01-767386</span></div>
-  <div id="button-twelve" class="button gray"><span class="button-margin">02-406950</span></div>
-  <div id="button-thirteen" class="button gray"><span class="button-margin">03-883192</span></div>
-  <div id="button-fourteen" class="button gray"><span class="button-margin">04-547632</span></div>
-  <div id="button-fifteen" class="button orange"><span class="button-margin">05-521358</span></div>
-  <div id="button-sixteen" class="button orange"><span class="button-margin">06-684421</span></div>
-  <div id="button-seventeen" class="button gray"><span class="button-margin">01-906788</span></div>
-  <div id="button-eighteen" class="button gray"><span class="button-margin">02-786195</span></div>
-  <div id="button-nineteen" class="button gray"><span class="button-margin">03-855803</span></div>
-  <div id="button-twenty" class="button gray"><span class="button-margin">04-261697</span></div>
+  <div id="button-1" class="button gray"><span class="button-margin">LCARS 42028</span></div>
+  <div id="button-2" class="button orange"><span class="button-margin">6539-456</span></div>
+  <div id="button-3" class="button orange"><span class="button-margin">01-558695</span></div>
+  <div id="button-4" class="button orange"><span class="button-margin">02-771423</span></div>
+  <div id="button-5" class="button orange"><span class="button-margin">03-109549</span></div>
+  <div id="button-6" class="button gray"><span class="button-margin">04-896790</span></div>
+  <div id="button-7" class="button gray"><span class="button-margin">05-947165</span></div>
+  <div id="button-8" class="button orange"><span class="button-margin">06-906308</span></div>
+  <div id="button-9" class="button gray"><span class="button-margin">Recalibrate</span></div>
+  <div id="button-10" class="button gray"><span class="button-margin">Close</span></div>
+  <div id="button-11" class="button gray"><span class="button-margin">01-767386</span></div>
+  <div id="button-12" class="button gray"><span class="button-margin">02-406950</span></div>
+  <div id="button-13" class="button gray"><span class="button-margin">03-883192</span></div>
+  <div id="button-14" class="button gray"><span class="button-margin">04-547632</span></div>
+  <div id="button-15" class="button orange"><span class="button-margin">05-521358</span></div>
+  <div id="button-16" class="button orange"><span class="button-margin">06-684421</span></div>
+  <div id="button-17" class="button gray"><span class="button-margin">01-906788</span></div>
+  <div id="button-18" class="button gray"><span class="button-margin">02-786195</span></div>
+  <div id="button-19" class="button gray"><span class="button-margin">03-855803</span></div>
+  <div id="button-20" class="button gray"><span class="button-margin">04-261697</span></div>
   <table id="cascade">
     <tbody>
       <tr class="row-one">
