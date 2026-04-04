@@ -10,7 +10,7 @@ document.querySelector('#element-eight').outerHTML = `
   <div id="element-4"></div>
   <div id="element-5"></div>
   <div id="element-6"></div>
-  <div id="element-7"></div>
+  <div id="element-7"></div><!--
   <article id="element-eight">
     ${document.querySelector('#element-eight').innerHTML}
     <footer id="footer">
@@ -21,7 +21,7 @@ document.querySelector('#element-eight').outerHTML = `
       <p>The Federation Database is not and does not claim to be endorsed by, sponsored by, or affiliated with Paramount Skydance, the Star Trek franchise, or any affiliated entity.</p>
       <p>All Star Trek trademarks and copyrights on the Federation Database are owned by Paramount Skydance or an affiliated entity and are used in a way believed to qualify as fair use under United States copyright law.</p>
     </footer>
-  </article>
+  </article>-->
   <div id="element-9"></div>
   <div id="element-10"></div>
   <div id="element-11"></div>
@@ -50,7 +50,7 @@ document.querySelector('#element-eight').outerHTML = `
   <div id="button-17" class="button gray"><span class="button-margin">01-906788</span></div>
   <div id="button-18" class="button gray"><span class="button-margin">02-786195</span></div>
   <div id="button-19" class="button gray"><span class="button-margin">03-855803</span></div>
-  <div id="button-20" class="button gray"><span class="button-margin">04-261697</span></div>
+  <div id="button-20" class="button gray"><span class="button-margin">04-261697</span></div><!--
   <table id="cascade">
     <tbody>
       <tr class="row-one">
@@ -234,7 +234,7 @@ document.querySelector('#element-eight').outerHTML = `
         <td>5047</td>
       </tr>
     </tbody>
-  </table>
+  </table>-->
 `;
 
 // Button functions
