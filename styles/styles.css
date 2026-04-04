@@ -6,6 +6,8 @@ body{
 	font-family: 'Antonio';
 	margin: 0;
 	text-align: justify;
+	display: grid;
+	grid-template-columns: repeat(36, 1fr) repeat(2, auto) repeat(10, 1fr);
 }
 
 div,
@@ -93,64 +95,59 @@ blockquote + div{
 
 /* Design */
 #element-one{
-	position: fixed;
-	left: 20px;
-	bottom: 740px;
-	height: 20px;
-	width: 240px;
-	border-right: 120px solid #2f3749;
-	border-bottom: 40px solid #2f3749;
-	border-radius: 0 0 20px 0;
+	position: sticky;
+	grid-column: 2 / span 12;
+	grid-row: 3 / span 2;
+	background-color: #2f3749;
 }
 
 #element-two{
-	position: fixed;
-	left: 20px;
-	bottom: 20px;
-	height: 440px;
-	width: 240px;
-	border-right: 120px solid #2f3749;
-	border-top: 40px solid #2f3749;
-	border-radius: 0 20px 0 0;
+	position: sticky;
+	grid-column: 14 / span 6;
+	grid-row: 2 / span 3;
+	background-color: #2f3749;
+	border-radius: 0 0 1em 0;
 }
 
 #element-three{
-	position: fixed;
-	top: 20px;
-	bottom: 20px;
-	left: 540px;
-	right: 20px;
-	border-width: 40px 120px;
-	border-color: #2f3749;
-	border-style: solid;
-	border-radius: 20px;
+	position: sticky;
+	grid-column: 28 / span 6;
+	grid-row: 2 / span 3;
+	background-color: #2f3749;
+	border-radius: 1em 0 0 0;
 }
 
 #element-four{
-	position: fixed;
-	bottom: 60px;
-	left: 260px;
-	width: 100px;
-	height: 380px;
-	background: #000000;
+	position: sticky;
+	grid-column: 34 / span 4;
+	grid-row: 2 / span 2;
+	background-color: #2f3749;
+}
+
+#label{
+	position: sticky;
+	grid-column: 38;
+	grid-row: 2 / span 2;
+	color: #e7442a;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.5em;
 }
 
 #element-five{
-	position: fixed;
-	top: 80px;
-	left: 560px;
-	width: 100px;
-	height: 560px;
-	background: #000000;
+	position: sticky;
+	grid-column: 39 / span 3;
+	grid-row: 2 / span 2;
+	background-color: #2f3749;
 }
 
 #element-six{
-	position: fixed;
-	top: 80px;
-	right: 40px;
-	width: 100px;
-	height: 260px;
-	background: #000000;
+	position: sticky;
+	grid-column: 42 / span 6;
+	grid-row: 2 / span 3;
+	background-color: #2f3749;
+	border-radius: 0 1em 0 0;
 }
 
 #element-seven{
@@ -175,41 +172,27 @@ blockquote + div{
 	display: flex;
 	justify-content: right;
 	align-items: end;
-	width: 120px;
-	height: 40px;
 	font-size: small;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
 }
 
-.button:hover,
-#button-one:hover,
-#button-two:hover{
+.button:hover{
 	cursor: pointer;
 	filter: brightness(120%);
 }
 
-.button:active,
-#button-one:active,
-#button-two:active{
+.button:active{
 	filter: brightness(80%);
 }
 
 #button-one{
-	position: fixed;
-	left: 400px;
-	bottom: 740px;
-	height: 60px;
-	width: 120px;
-	border-radius: 0 0 0 20px;
-	display: flex;
-	justify-content: right;
-	align-items: end;
-	font-size: small;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #000000;
+	position: sticky;
+	grid-column: 21 / span 6;
+	grid-row: 2 / span 3;
+	background-color: #9ea5ba;
+	border-radius: 0 0 0 1em;
 }
 
 #button-two{
@@ -419,41 +402,6 @@ blockquote + div{
 #cascade .row-ten{
 	animation: colorchange 2s infinite;
 	animation-delay: 1.0s;
-}
-
-#label{
-	color: #e7442a;
-	text-transform: uppercase;
-	position: fixed;
-	display: flex;
-	justify-content: right;
-	align-items: end;
-	top: 20px;
-	right: 200px;
-	height: 40px;
-	font-size: 35px;
-	font-weight: bold;
-	background: #000000;
-}
-
-#label::before{
-	position: absolute;
-	content: '';
-	width: 10px;
-	height: 40px;
-	top: 0;
-	left: -10px;
-	background: #000000;
-}
-
-#label::after{
-	position: absolute;
-	content: '';
-	width: 10px;
-	height: 40px;
-	top: 0;
-	right: -10px;
-	background: #000000;
 }
 
 #footer{
