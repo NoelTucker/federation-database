@@ -22,6 +22,14 @@ document.querySelector('#element-eight').outerHTML = `
       <p>All Star Trek trademarks and copyrights on the Federation Database are owned by Paramount Skydance or an affiliated entity and are used in a way believed to qualify as fair use under United States copyright law.</p>
     </footer>
   </article>
+  <div id="element-9"></div>
+  <div id="element-10"></div>
+  <div id="element-11"></div>
+  <div id="element-12"></div>
+  <div id="element-13"></div>
+  <div id="element-14"></div>
+  <div id="element-15"></div>
+  <div id="element-16"></div>
   <a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
   <div id="button-1" class="button gray"><span class="button-margin">LCARS 42028</span></div>
   <div id="button-2" class="button orange"><span class="button-margin">6539-456</span></div>
