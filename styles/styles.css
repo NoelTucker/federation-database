@@ -8,7 +8,7 @@ body{
 	text-align: justify;
 	display: grid;
 	grid-template-columns: repeat(36, 1fr) 30% auto repeat(10, 1fr);
-	grid-auto-rows: 1em;
+	grid-template-rows: repeat(11, 1em) auto repeat(19, 1em) auto 1em;
 }
 
 div,
@@ -151,22 +151,117 @@ blockquote + div{
 	border-radius: 0 1em 0 0;
 }
 
+@keyframes colorchange{
+	000%{
+		color: #e7442a;
+	}
+	075%{
+		color: #e7442a;
+	}
+	080%{
+		color: #000000;
+	}
+	090%{
+		color: #000000;
+	}
+	100%{
+		color: #ffffff;
+	}
+}
+
+#cascade{
+	position: sticky;
+	grid-column: 2 / span 25;
+	grid-row: 6 / span 7;
+	text-align: right;
+	font-size: small;
+	color: #000000;
+}
+
+#cascade .row-one{
+	animation: colorchange 2s infinite;
+	animation-delay: 0.1s;
+}
+
+#cascade .row-two{
+	animation: colorchange 3s infinite;
+	animation-delay: 0.2s;
+}
+
+#cascade .row-three{
+	animation: colorchange 3s infinite;
+	animation-delay: 0.3s;
+}
+
+#cascade .row-four{
+	animation: colorchange 2s infinite;
+	animation-delay: 0.4s;
+}
+
+#cascade .row-five{
+	animation: colorchange 3s infinite;
+	animation-delay: 0.5s;
+}
+
+#cascade .row-six{
+	animation: colorchange 2s infinite;
+	animation-delay: 0.6s;
+}
+
+#cascade .row-seven{
+	animation: colorchange 2s infinite;
+	animation-delay: 0.7s;
+}
+
+#cascade .row-eight{
+	animation: colorchange 3s infinite;
+	animation-delay: 0.8s;
+}
+
+#cascade .row-nine{
+	animation: colorchange 2s infinite;
+	animation-delay: 0.9s;
+}
+
+#cascade .row-ten{
+	animation: colorchange 2s infinite;
+	animation-delay: 1.0s;
+}
+
 #element-7{
-	position: fixed;
-	top: 20px;
-	right: 100px;
-	height: 40px;
-	background: #2f3749;
-	border-radius: 20px;
+	position: sticky;
+	grid-column: 28;
+	grid-row: 5 / span 7;
+	background-color: #2f3749;
 }
 
 #element-eight{
-	position: fixed;
-	top: 80px;
-	bottom: 80px;
-	left: 720px;
-	right: 200px;
-	overflow-y: auto;
+	grid-column: 37 / span 2;
+	grid-row: 5 / span 28;
+}
+
+#element-9{
+}
+
+#element-10{
+}
+
+#element-11{
+}
+
+#element-12{
+}
+
+#element-13{
+}
+
+#element-14{
+}
+
+#element-15{
+}
+
+#element-16{
 }
 
 .button{
@@ -324,85 +419,6 @@ blockquote + div{
 .button-margin{
 	margin: 3px 4px;
 	text-align: right;
-}
-
-@keyframes colorchange{
-	000%{
-		color: #e7442a;
-	}
-	075%{
-		color: #e7442a;
-	}
-	080%{
-		color: #000000;
-	}
-	090%{
-		color: #000000;
-	}
-	100%{
-		color: #ffffff;
-	}
-}
-
-#cascade{
-	position: fixed;
-	bottom: 500px;
-	left: 20px;
-	width: 360px;
-	height: 240px;
-	text-align: right;
-	font-size: small;
-	color: #000000;
-}
-
-#cascade .row-one{
-	animation: colorchange 2s infinite;
-	animation-delay: 0.1s;
-}
-
-#cascade .row-two{
-	animation: colorchange 3s infinite;
-	animation-delay: 0.2s;
-}
-
-#cascade .row-three{
-	animation: colorchange 3s infinite;
-	animation-delay: 0.3s;
-}
-
-#cascade .row-four{
-	animation: colorchange 2s infinite;
-	animation-delay: 0.4s;
-}
-
-#cascade .row-five{
-	animation: colorchange 3s infinite;
-	animation-delay: 0.5s;
-}
-
-#cascade .row-six{
-	animation: colorchange 2s infinite;
-	animation-delay: 0.6s;
-}
-
-#cascade .row-seven{
-	animation: colorchange 2s infinite;
-	animation-delay: 0.7s;
-}
-
-#cascade .row-eight{
-	animation: colorchange 3s infinite;
-	animation-delay: 0.8s;
-}
-
-#cascade .row-nine{
-	animation: colorchange 2s infinite;
-	animation-delay: 0.9s;
-}
-
-#cascade .row-ten{
-	animation: colorchange 2s infinite;
-	animation-delay: 1.0s;
 }
 
 #footer{
