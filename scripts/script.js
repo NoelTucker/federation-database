@@ -259,9 +259,6 @@ document.querySelector('#button-ten').onclick = function(){
   setTimeout(() => {window.open(location, '_self').close()}, 1000);
 };
 
-// Link setup
-document.querySelectorAll('a').forEach((link) => {link.setAttribute('target', '_blank')});
-
 // Heading IDs
 function addHeadingIds(){
   const headings = document.querySelectorAll('h2, h3, h4, h5, h6');
