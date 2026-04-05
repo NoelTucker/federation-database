@@ -171,8 +171,8 @@ blockquote + div{
 
 #label{
 	position: relative;
-	top: -1em;
-	right: -1em;
+	float: right;
+	top: -1.5em;
 	text-transform: uppercase;
 	font-size: 2em;
 	font-weight: bold;
