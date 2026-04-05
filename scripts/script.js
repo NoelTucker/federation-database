@@ -17,20 +17,16 @@ document.querySelector('#element-eight').outerHTML = `
 	</div>
 	<article id="panel-3">
 		<div id="container-2" class="button-container">
-			<div id="container-3" class="button-container">
-				<div id="button-7" class="button gray">2561-395</div>
-				<div id="button-8" class="button gray">3405-465</div>
-			</div>
-			<div id="container-4" class="button-container">
-				<div id="button-9" class="button gray">01-767386</div>
-				<div id="button-10" class="button gray">02-406950</div>
-				<div id="button-11" class="button gray">03-883192</div>
-				<div id="button-12" class="button gray">04-547632</div>
-				<div id="button-13" class="button orange">05-521358</div>
-				<div id="button-14" class="button orange">06-684421</div>
-			</div>
+			<div id="button-7" class="button gray">2561-395</div>
+			<div id="button-8" class="button gray">3405-465</div>
+			<div id="button-9" class="button gray">01-767386</div>
+			<div id="button-10" class="button gray">02-406950</div>
+			<div id="button-11" class="button gray">03-883192</div>
+			<div id="button-12" class="button gray">04-547632</div>
+			<div id="button-13" class="button orange">05-521358</div>
+			<div id="button-14" class="button orange">06-684421</div>
 		</div>
-		<div id="container-5" class="button-container">
+		<div id="container-3" class="button-container">
 			<div id="button-15" class="button gray">01-906788</div>
 			<div id="button-16" class="button gray">02-786195</div>
 			<div id="button-17" class="button gray">03-855803</div>
