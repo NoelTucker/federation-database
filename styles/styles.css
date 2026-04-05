@@ -426,8 +426,7 @@ blockquote + div{
 	background-color: #9ea5ba;
 }
 
-/* Responsive formatting */
-/*
+/* Responsive formatting
 @media (max-height: 820px){
 	#cascade{
 		display: none;
