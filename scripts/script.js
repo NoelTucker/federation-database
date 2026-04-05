@@ -33,7 +33,7 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-18" class="button gray">04-261697</div>
 		</div>
 		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a><!--
-		${document.querySelector('#element-eight').innerHTML}
+		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
 			<p>All quotations on the Federation Database are used in a way believed to quality as fair use under United States copyright law. All other text is owned by Noel Tucker and is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
