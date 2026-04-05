@@ -99,6 +99,7 @@ blockquote + div{
 .panel{
 	border-style: solid;
 	border-color: #2f3749;
+	padding: 0 -6em;
 }
 
 #panel-1{
