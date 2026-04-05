@@ -130,17 +130,22 @@ blockquote + div{
 	gap: 1em;
 }
 
-#container-1,
-#container-3{
+#container-1{
 	float: right;
 	top: 1em;
-	right: -8em;
+	right: -5;
 }
 
 #container-2{
 	float: left;
 	top: 1em;
-	left: -5em;
+	left: -8em;
+}
+
+#container-3{
+	float: right;
+	top: 1em;
+	right: -8em;
 }
 
 #container-2::before{
