@@ -3,7 +3,7 @@ const title = document.head.appendChild(document.createElement('title'));
 title.innerHTML = document.querySelector('h1').innerHTML === 'Home' ? 'Federation Database' : `${document.querySelector('h1').innerHTML} | Federation Database`;
 
 // Design
-document.querySelector('#element-eight').outerHTML = `
+document.querySelector('#panel-3').outerHTML = `
 	<div id="panel-1" class="panel"></div>
 	<div id="panel-2" class="panel">
 		<div id="container-1" class="button-container">
