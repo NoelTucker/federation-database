@@ -15,8 +15,8 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-6" class="button orange">06-906308</div>
 		</div>
 	</div>
-	<article id="panel-3" class="panel">
-		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a><!--
+	<article id="panel-3" class="panel"><!--
+		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
 		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
