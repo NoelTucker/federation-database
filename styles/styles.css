@@ -145,13 +145,12 @@ blockquote + div{
 }
 
 .button{
-	display: flex;
-	align-items: end;
+	align-content: end;
 	text-align: right;
 	text-transform: uppercase;
 	font-size: small;
 	color: #000000;
-	padding: 3px 4px;
+	padding: 0 0.25em;
 }
 
 .button:hover{
