@@ -99,7 +99,6 @@ blockquote + div{
 .panel{
 	border-style: solid;
 	border-color: #2f3749;
-	padding: 0;
 }
 
 #panel-1{
@@ -175,6 +174,26 @@ blockquote + div{
 
 #button-9{
 	grid-row: 4;
+}
+
+#button-10{
+	grid-row: 5;
+}
+
+#button-11{
+	grid-row: 6;
+}
+
+#button-12{
+	grid-row: 7;
+}
+
+#button-13{
+	grid-row: 8;
+}
+
+#button-14{
+	grid-row: 9;
 }
 
 #label{
