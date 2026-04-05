@@ -16,6 +16,15 @@ document.querySelector('#panel-3').outerHTML = `
 		</div>
 	</div>
 	<article id="panel-3" class="panel">
+		${document.querySelector('#panel-3').innerHTML}
+		<footer id="footer">
+			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
+			<p>All quotations on the Federation Database are used in a way believed to quality as fair use under United States copyright law. All other text is owned by Noel Tucker and is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
+			<p>The design of the Federation Database is inspired by the LCARS design style created by Michael Okuda. The colors are from LCARS designs by Andrew Jarvis. All original aspects are owned by Noel Tucker and are not available under any license. All unoriginal aspects are owned by <a href="https://www.paramount.com">Paramount Skydance</a> and are used in a way believed to qualify as fair use under United States copyright law.</p>
+			<p>License and/or copyright information is listed individually for all images, video, and audio on the Federation Database.</p>
+			<p>The Federation Database is not and does not claim to be endorsed by, sponsored by, or affiliated with Paramount Skydance, the Star Trek franchise, or any affiliated entity.</p>
+			<p>All Star Trek trademarks and copyrights on the Federation Database are owned by Paramount Skydance or an affiliated entity and are used in a way believed to qualify as fair use under United States copyright law.</p>
+		</footer>
 		<div id="container-2" class="button-container">
 			<div id="button-7" class="button gray">2561-395</div>
 			<div id="button-8" class="button gray">3405-465</div>
@@ -31,16 +40,7 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-16" class="button gray">02-786195</div>
 			<div id="button-17" class="button gray">03-855803</div>
 			<div id="button-18" class="button gray">04-261697</div>
-		</div><!--
-		${document.querySelector('#panel-3').innerHTML}
-		<footer id="footer">
-			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
-			<p>All quotations on the Federation Database are used in a way believed to quality as fair use under United States copyright law. All other text is owned by Noel Tucker and is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
-			<p>The design of the Federation Database is inspired by the LCARS design style created by Michael Okuda. The colors are from LCARS designs by Andrew Jarvis. All original aspects are owned by Noel Tucker and are not available under any license. All unoriginal aspects are owned by <a href="https://www.paramount.com">Paramount Skydance</a> and are used in a way believed to qualify as fair use under United States copyright law.</p>
-			<p>License and/or copyright information is listed individually for all images, video, and audio on the Federation Database.</p>
-			<p>The Federation Database is not and does not claim to be endorsed by, sponsored by, or affiliated with Paramount Skydance, the Star Trek franchise, or any affiliated entity.</p>
-			<p>All Star Trek trademarks and copyrights on the Federation Database are owned by Paramount Skydance or an affiliated entity and are used in a way believed to qualify as fair use under United States copyright law.</p>
-		</footer>-->
+		</div>
 	</article>
 	<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
 	<div id="button-panel-1" class="button gray">LCARS 42028</div>
