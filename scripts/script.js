@@ -16,6 +16,7 @@ document.querySelector('#panel-3').outerHTML = `
 		</div>
 	</div>
 	<article id="panel-3" class="panel">
+		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
 		<div id="container-2" class="button-container">
 			<div id="button-7" class="button gray">2561-395</div>
 			<div id="button-8" class="button gray">3405-465</div>
@@ -31,8 +32,7 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-16" class="button gray">02-786195</div>
 			<div id="button-17" class="button gray">03-855803</div>
 			<div id="button-18" class="button gray">04-261697</div>
-		</div>
-		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a><!--
+		</div><!--
 		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
