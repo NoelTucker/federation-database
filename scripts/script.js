@@ -31,8 +31,8 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-16" class="button gray">02-786195</div>
 			<div id="button-17" class="button gray">03-855803</div>
 			<div id="button-18" class="button gray">04-261697</div>
-		</div><!--
-		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
+		</div>
+		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a><!--
 		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
