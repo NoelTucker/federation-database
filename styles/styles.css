@@ -140,7 +140,7 @@ blockquote + div{
 #container-2{
 	float: left;
 	top: 1em;
-	left: -8em;
+	left: -5em;
 }
 
 #container-2::before{
