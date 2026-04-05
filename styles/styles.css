@@ -102,13 +102,11 @@ blockquote + div{
 }
 
 #panel-1{
-	position: sticky;
 	border-width: 0 6em 2em 0;
 	border-radius: 0 0 1em 0;
 }
 
 #panel-2{
-	position: sticky;
 	grid-row: 3;
 	border-width: 2em 6em 0 0;
 	border-radius: 0 1em 0 0;
@@ -139,6 +137,11 @@ blockquote + div{
 	float: left;
 }
 
+#container-2::before{
+	content: '';
+	grid-row: 3;
+}
+
 .button{
 	align-content: end;
 	text-align: right;
@@ -157,43 +160,8 @@ blockquote + div{
 	filter: brightness(80%);
 }
 
-#button-panel-1{
-	position: sticky;
-	grid-column: 2;
-	grid-row: 1;
-	border-radius: 0 0 0 1em;
-	background-color: #9ea5ba;
-}
-
-#button-panel-2{
-	position: sticky;
-	grid-row: 3;
-	border-radius: 1em 0 0 0;
-	background-color: #e7442a;
-}
-
 #button-9{
 	grid-row: 4;
-}
-
-#button-10{
-	grid-row: 5;
-}
-
-#button-11{
-	grid-row: 6;
-}
-
-#button-12{
-	grid-row: 7;
-}
-
-#button-13{
-	grid-row: 8;
-}
-
-#button-14{
-	grid-row: 9;
 }
 
 #label{
@@ -203,6 +171,19 @@ blockquote + div{
 	color: #e7442a;
 	background-color: #000000;
 	padding: 0 0.5em;
+}
+
+#button-panel-1{
+	grid-column: 2;
+	grid-row: 1;
+	border-radius: 0 0 0 1em;
+	background-color: #9ea5ba;
+}
+
+#button-panel-2{
+	grid-row: 3;
+	border-radius: 1em 0 0 0;
+	background-color: #e7442a;
 }
 
 @keyframes colorchange{
@@ -224,7 +205,6 @@ blockquote + div{
 }
 
 #cascade{
-	position: sticky;
 	grid-column: span 2;
 	text-align: right;
 	font-size: small;
