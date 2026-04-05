@@ -16,6 +16,7 @@ document.querySelector('#panel-3').outerHTML = `
 		</div>
 	</div>
 	<article id="panel-3" class="panel">
+		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
 		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
@@ -42,7 +43,6 @@ document.querySelector('#panel-3').outerHTML = `
 			<div id="button-18" class="button gray">04-261697</div>
 		</div>
 	</article>
-	<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
 	<div id="button-panel-1" class="button gray">LCARS 42028</div>
 	<div id="button-panel-2" class="button orange">6539-456</div>
 	<table id="cascade">
