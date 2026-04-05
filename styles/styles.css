@@ -171,6 +171,7 @@ blockquote + div{
 
 #button-panel-1{
 	position: sticky;
+	grid-column: 2;
 	border-radius: 0 0 0 1em;
 	background-color: #9ea5ba;
 }
