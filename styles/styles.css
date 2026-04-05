@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700');
 
 body{
-	background: #000000;
+	background-color: #000000;
 	color: #e7442a;
 	font-family: 'Antonio';
-	margin: 0;
+	padding: 1em;
 	text-align: justify;
 	display: grid;
-	grid-template-columns: repeat(36, 1fr) 30% auto repeat(10, 1fr);
-	grid-template-rows: repeat(11, 1em) auto repeat(19, 1em) auto 1em;
+	grid-template-columns: 18em 6em auto;
+	grid-template-rows: 3em auto auto;
+	gap: 1em;
 }
 
 div,
@@ -95,60 +96,99 @@ blockquote + div{
 }
 
 /* Design */
-#element-1{
-	position: sticky;
-	grid-column: 2 / span 12;
-	grid-row: 3 / span 2;
-	background-color: #2f3749;
+.panel{
+	border-style: solid;
+	border-color: #2f3749;
 }
 
-#element-2{
+#panel-1{
 	position: sticky;
-	grid-column: 14 / span 6;
-	grid-row: 2 / span 3;
-	background-color: #2f3749;
+	border-width: 0 6em 2em 0;
 	border-radius: 0 0 1em 0;
 }
 
-#element-3{
+#panel-2{
 	position: sticky;
-	grid-column: 28 / span 6;
-	grid-row: 2 / span 3;
-	background-color: #2f3749;
-	border-radius: 1em 0 0 0;
+	grid-row: 3;
+	border-width: 2em 6em 0 0;
+	border-radius: 0 1em 0 0;
 }
 
-#element-4{
+#panel-3{
+	grid-column: 3;
+	grid-row: span 3;
+	border-width: 2em 6em;
+	border-radius: 1em;
+}
+
+.button-container{
+	background-color: #000000;
+	display: grid;
+	gap: 1em;
+}
+
+#container-1,
+#container-5{
+	float: right;
+}
+
+#container-2{
+	float: left;
+}
+
+#container-3{
+	margin-bottom: 0.5em;
+}
+
+#container-4{
+	margin-top: 0.5em;
+}
+
+.button{
+	display: flex;
+	align-items: end;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: small;
+	color: #000000;
+	padding: 3px 4px;
+}
+
+.button:hover{
+	cursor: pointer;
+	filter: brightness(120%);
+}
+
+.button:active{
+	filter: brightness(80%);
+}
+
+.button-container > .button{
+	width: 6em;
+	height: 2em;
+	margin: 0 1em;
+}
+
+#button-panel-1{
 	position: sticky;
-	grid-column: 34 / span 4;
-	grid-row: 2 / span 2;
-	background-color: #2f3749;
+	border-radius: 0 0 0 1em;
+	background-color: #9ea5ba;
+}
+
+#button-panel-2{
+	position: sticky;
+	grid-row: 3;
+	border-radius: 1em 0 0 0;
+	background-color: #e7442a;
 }
 
 #label{
-	position: sticky;
-	grid-column: 38;
-	grid-row: 2 / span 2;
-	color: #e7442a;
 	text-transform: uppercase;
 	font-size: 2em;
 	font-weight: bold;
+	color: #e7442a;
+	background-color: #000000;
 	padding: 0 0.5em;
-}
-
-#element-5{
-	position: sticky;
-	grid-column: 39 / span 3;
-	grid-row: 2 / span 2;
-	background-color: #2f3749;
-}
-
-#element-6{
-	position: sticky;
-	grid-column: 42 / span 6;
-	grid-row: 2 / span 3;
-	background-color: #2f3749;
-	border-radius: 0 1em 0 0;
 }
 
 @keyframes colorchange{
@@ -171,8 +211,7 @@ blockquote + div{
 
 #cascade{
 	position: sticky;
-	grid-column: 2 / span 25;
-	grid-row: 6 / span 7;
+	grid-column: span 2;
 	text-align: right;
 	font-size: small;
 	color: #000000;
@@ -228,199 +267,6 @@ blockquote + div{
 	animation-delay: 1.0s;
 }
 
-#element-7{
-	position: sticky;
-	grid-column: 28;
-	grid-row: 5 / span 7;
-	background-color: #2f3749;
-}
-
-#element-eight{
-	grid-column: 37 / span 2;
-	grid-row: 5 / span 28;
-}
-
-#element-9{
-}
-
-#element-10{
-}
-
-#element-11{
-}
-
-#element-12{
-}
-
-#element-13{
-}
-
-#element-14{
-}
-
-#element-15{
-}
-
-#element-16{
-}
-
-.button{
-	display: flex;
-	justify-content: right;
-	align-items: end;
-	font-size: small;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #000000;
-}
-
-.button:hover{
-	cursor: pointer;
-	filter: brightness(120%);
-}
-
-.button:active{
-	filter: brightness(80%);
-}
-
-#button-1{
-	position: sticky;
-	grid-column: 21 / span 6;
-	grid-row: 2 / span 3;
-	background-color: #9ea5ba;
-	border-radius: 0 0 0 1em;
-}
-
-#button-2{
-	position: fixed;
-	left: 400px;
-	bottom: 20px;
-	height: 480px;
-	width: 120px;
-	border-radius: 20px 0 0 0;
-	display: flex;
-	justify-content: right;
-	align-items: end;
-	font-size: small;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #000000;
-}
-
-#button-3{
-	position: fixed;
-	bottom: 380px;
-	left: 220px;
-}
-
-#button-4{
-	position: fixed;
-	bottom: 320px;
-	left: 220px;
-}
-
-#button-5{
-	position: fixed;
-	bottom: 260px;
-	left: 220px;
-}
-
-#button-6{
-	position: fixed;
-	bottom: 200px;
-	left: 220px;
-}
-
-#button-7{
-	position: fixed;
-	bottom: 140px;
-	left: 220px;
-}
-
-#button-8{
-	position: fixed;
-	bottom: 80px;
-	left: 220px;
-}
-
-#button-9{
-	position: fixed;
-	top: 100px;
-	left: 580px;
-}
-
-#button-10{
-	position: fixed;
-	top: 160px;
-	left: 580px;
-}
-
-#button-11{
-	position: fixed;
-	top: 280px;
-	left: 580px;
-}
-
-#button-12{
-	position: fixed;
-	top: 340px;
-	left: 580px;
-}
-
-#button-13{
-	position: fixed;
-	top: 400px;
-	left: 580px;
-	background: #9ea5ba;
-}
-
-#button-14{
-	position: fixed;
-	top: 460px;
-	left: 580px;
-}
-
-#button-15{
-	position: fixed;
-	top: 520px;
-	left: 580px;
-}
-
-#button-16{
-	position: fixed;
-	top: 580px;
-	left: 580px;
-}
-
-#button-17{
-	position: fixed;
-	top: 100px;
-	right: 60px;
-}
-
-#button-18{
-	position: fixed;
-	top: 160px;
-	right: 60px;
-}
-
-#button-19{
-	position: fixed;
-	top: 220px;
-	right: 60px;
-}
-
-#button-20{
-	position: fixed;
-	top: 280px;
-	right: 60px;
-}
-
-.button-margin{
-	margin: 3px 4px;
-	text-align: right;
-}
-
 #footer{
 	clear: both;
 	text-align: center;
@@ -446,7 +292,7 @@ blockquote + div{
 
 .infobox{
 	width: 300px;
-	background: #111419;
+	background-color: #111419;
 	border-radius: 20px;
 	margin: 0 0 20px 20px;
 	padding-bottom: 10px;
@@ -461,7 +307,7 @@ blockquote + div{
 	grid-column: span 2;
 	text-align: center;
 	font-weight: bold;
-	background: #2f3749;
+	background-color: #2f3749;
 }
 
 .infotop:first-of-type{
@@ -573,11 +419,11 @@ blockquote + div{
 
 /* Colors */
 .orange{
-	background: #e7442a;
+	background-color: #e7442a;
 }
 
 .gray{
-	background: #9ea5ba;
+	background-color: #9ea5ba;
 }
 
 /* Responsive formatting */
