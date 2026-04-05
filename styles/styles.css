@@ -127,7 +127,7 @@ blockquote + div{
 	padding: 1em;
 	display: grid;
 	grid-template-columns: 6em;
-	grid-template-rows: repeat(auto-fill, 2em);
+	grid-auto-rows: 2em;
 	gap: 1em;
 }
 
@@ -174,7 +174,7 @@ blockquote + div{
 }
 
 #button-9{
-	grid-row: 3;
+	grid-row: 4;
 }
 
 #label{
