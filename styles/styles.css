@@ -132,12 +132,14 @@ blockquote + div{
 #container-1,
 #container-3{
 	float: right;
-	right: -6em;
+	right: -5em;
+	top: -1em;
 }
 
 #container-2{
 	float: left;
-	left: -6em;
+	left: -5em;
+	top: -1em;
 }
 
 #container-2::before{
