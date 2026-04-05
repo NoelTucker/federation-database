@@ -16,7 +16,7 @@ document.querySelector('#panel-3').outerHTML = `
 		</div>
 	</div>
 	<article id="panel-3" class="panel">
-		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a>
+		<a id="label" href="https://noeltucker.github.io/federation-database">Federation Database</a><!--
 		${document.querySelector('#panel-3').innerHTML}
 		<footer id="footer">
 			<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
@@ -25,7 +25,7 @@ document.querySelector('#panel-3').outerHTML = `
 			<p>License and/or copyright information is listed individually for all images, video, and audio on the Federation Database.</p>
 			<p>The Federation Database is not and does not claim to be endorsed by, sponsored by, or affiliated with Paramount Skydance, the Star Trek franchise, or any affiliated entity.</p>
 			<p>All Star Trek trademarks and copyrights on the Federation Database are owned by Paramount Skydance or an affiliated entity and are used in a way believed to qualify as fair use under United States copyright law.</p>
-		</footer>
+		</footer>-->
 		<div id="container-2" class="button-container">
 			<div id="button-7" class="button gray">2561-395</div>
 			<div id="button-8" class="button gray">3405-465</div>
