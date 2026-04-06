@@ -98,7 +98,6 @@ blockquote + div{
 #left-container{
 	position: sticky;
 	top: 1em;
-	bottom: 1em;
 	display: grid;
 	grid-template-columns: 18em 6em;
 	grid-template-rows: 3em min-content 1fr;
