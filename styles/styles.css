@@ -4,7 +4,11 @@ body{
 	background-color: #000000;
 	color: #e7442a;
 	font-family: 'Antonio';
+	padding: 1em;
 	text-align: justify;
+	display: grid;
+	grid-template-columns: 25em 1fr;
+	gap: 1em;
 }
 
 div,
@@ -91,9 +95,9 @@ blockquote + div{
 }
 
 /* Design */
-#left-container{
+#left-container > div{
 	position: sticky;
-	padding: 1em;
+	top: 1em;
 	display: grid;
 	grid-template-columns: 18em 6em;
 	grid-template-rows: 3em min-content 1fr;
@@ -111,7 +115,6 @@ blockquote + div{
 }
 
 #panel-2{
-	grid-row: 3;
 	border-width: 2em 6em 0 0;
 	border-radius: 0 1em 0 0;
 }
@@ -119,7 +122,6 @@ blockquote + div{
 #panel-3{
 	border-width: 2em 6em;
 	border-radius: 1em;
-	padding: 1em 3em;
 }
 
 .button-container{
@@ -132,24 +134,24 @@ blockquote + div{
 	gap: 1em;
 }
 
-#container-1{
+#button-container-1{
 	float: right;
 	top: 1em;
 	right: -5em;
 }
 
-#container-2{
+#button-container-2{
 	float: left;
 	top: 1em;
 	left: -8em;
 }
 
-#container-2::before{
+#button-container-2::before{
 	content: '';
 	grid-row: 3;
 }
 
-#container-3{
+#button-container-3{
 	float: right;
 	top: 1em;
 	right: -8em;
@@ -173,21 +175,14 @@ blockquote + div{
 	filter: brightness(80%);
 }
 
-#button-panel-1{
-	grid-column: 2;
-	grid-row: 1;
+#control-button-1{
 	border-radius: 0 0 0 1em;
 	background-color: #9ea5ba;
 }
 
-#button-panel-2{
-	grid-row: 3;
+#control-button-2{
 	border-radius: 1em 0 0 0;
 	background-color: #e7442a;
-}
-
-#button-9{
-	grid-row: 4;
 }
 
 #label{
@@ -433,7 +428,8 @@ blockquote + div{
 	background-color: #9ea5ba;
 }
 
-/* Responsive formatting
+/* Responsive formatting */
+/*
 @media (max-height: 820px){
 	#cascade{
 		display: none;
