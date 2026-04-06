@@ -142,15 +142,15 @@ blockquote + div{
 	left: -8em;
 }
 
+#container-2::before{
+	content: '';
+	grid-row: 3;
+}
+
 #container-3{
 	float: right;
 	top: 1em;
 	right: -8em;
-}
-
-#container-2::before{
-	content: '';
-	grid-row: 3;
 }
 
 .button{
@@ -171,19 +171,6 @@ blockquote + div{
 	filter: brightness(80%);
 }
 
-#button-9{
-	grid-row: 4;
-}
-
-#label{
-	text-transform: uppercase;
-	font-size: 2em;
-	font-weight: bold;
-	color: #e7442a;
-	background-color: #000000;
-	padding: 0 0.25em;
-}
-
 #button-panel-1{
 	grid-column: 2;
 	grid-row: 1;
@@ -195,6 +182,19 @@ blockquote + div{
 	grid-row: 3;
 	border-radius: 1em 0 0 0;
 	background-color: #e7442a;
+}
+
+#button-9{
+	grid-row: 4;
+}
+
+#label{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	color: #e7442a;
+	background-color: #000000;
+	padding: 0 0.25em;
 }
 
 @keyframes colorchange{
