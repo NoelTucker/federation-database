@@ -4,8 +4,8 @@ title.innerHTML = document.querySelector('h1').innerHTML === 'Home' ? 'Federatio
 
 // Design
 document.querySelector('#page-content').outerHTML = `
-	<div id="left-container">
-		<div>
+	<div>
+		<div id="left-container">
 			<div id="panel-1" class="panel"></div>
 			<div id="control-button-1" class="button gray">LCARS 42028</div>
 			<table id="cascade">
@@ -226,7 +226,7 @@ document.querySelector('#page-content').outerHTML = `
 			</div>
 		</div>
 		<article id="page-content">
-			${document.querySelector('#right-container').innerHTML}
+			${document.querySelector('#page-content').innerHTML}
 			<footer id="footer">
 				<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
 				<p>All quotations on the Federation Database are used in a way believed to quality as fair use under United States copyright law. All other text is owned by Noel Tucker and is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
