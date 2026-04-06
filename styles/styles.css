@@ -4,6 +4,7 @@ body{
 	background-color: #000000;
 	color: #e7442a;
 	font-family: 'Antonio';
+	margin: 1em;
 	text-align: justify;
 	display: grid;
 	grid-template-columns: 25em 1fr;
