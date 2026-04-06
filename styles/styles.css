@@ -143,7 +143,7 @@ blockquote + div{
 #button-container-2{
 	float: left;
 	top: 1em;
-	left: -8em;
+	left: -5em;
 }
 
 #button-container-2::before{
@@ -154,7 +154,7 @@ blockquote + div{
 #button-container-3{
 	float: right;
 	top: 1em;
-	right: -8em;
+	right: -5em;
 }
 
 .button{
