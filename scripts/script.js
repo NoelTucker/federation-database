@@ -4,15 +4,17 @@ title.innerHTML = document.querySelector('h1').innerHTML === 'Home' ? 'Federatio
 
 // Design
 document.querySelector('#panel-3').outerHTML = `
-	<div id="panel-1" class="panel"></div>
-	<div id="panel-2" class="panel">
-		<div id="container-1" class="button-container">
-			<div id="button-1" class="button orange">01-558695</div>
-			<div id="button-2" class="button orange">02-771423</div>
-			<div id="button-3" class="button orange">03-109549</div>
-			<div id="button-4" class="button gray">04-896790</div>
-			<div id="button-5" class="button gray">05-947165</div>
-			<div id="button-6" class="button orange">06-906308</div>
+	<div id="left-container">
+		<div id="panel-1" class="panel"></div>
+		<div id="panel-2" class="panel">
+			<div id="container-1" class="button-container">
+				<div id="button-1" class="button orange">01-558695</div>
+				<div id="button-2" class="button orange">02-771423</div>
+				<div id="button-3" class="button orange">03-109549</div>
+				<div id="button-4" class="button gray">04-896790</div>
+				<div id="button-5" class="button gray">05-947165</div>
+				<div id="button-6" class="button orange">06-906308</div>
+			</div>
 		</div>
 	</div>
 	<article id="panel-3" class="panel">
