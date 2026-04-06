@@ -4,8 +4,7 @@ body{
 	background-color: #000000;
 	color: #e7442a;
 	font-family: 'Antonio';
-	margin: 0;
-	padding: 1em;
+	margin: 1em;
 	text-align: justify;
 	display: grid;
 	grid-template-columns: 25em 1fr;
@@ -135,17 +134,15 @@ blockquote + div{
 }
 
 #button-container-1{
-	position: relative;
 	float: right;
-	top: 1em;
-	right: -5em;
+	margin: 1em -5em 0 0;
 }
 
 #button-container-2{
 	position: sticky;
-	float: left;
 	top: 4em;
-	left: 28em;
+	float: left;
+	margin: 0 0 0 -5em;
 }
 
 #button-container-2::before{
@@ -155,9 +152,9 @@ blockquote + div{
 
 #button-container-3{
 	position: sticky;
-	float: right;
 	top: 4em;
-	right: 2em;
+	float: right;
+	margin: 0 -5em 0 0;
 }
 
 .button{
