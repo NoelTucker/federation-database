@@ -95,6 +95,14 @@ blockquote + div{
 }
 
 /* Design */
+#left-container{
+	grid-column: 1;
+}
+
+#right-container{
+	grid-column: 2;
+}
+
 #left-container > div{
 	position: sticky;
 	top: 1em;
