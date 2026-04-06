@@ -125,7 +125,6 @@ blockquote + div{
 }
 
 .button-container{
-	position: relative;
 	background-color: #000000;
 	padding: 1em;
 	display: grid;
@@ -135,15 +134,17 @@ blockquote + div{
 }
 
 #button-container-1{
+	position: relative;
 	float: right;
 	top: 1em;
 	right: -5em;
 }
 
 #button-container-2{
+	position: sticky;
 	float: left;
-	top: 1em;
-	left: -5em;
+	top: 4em;
+	left: 28em;
 }
 
 #button-container-2::before{
@@ -152,9 +153,10 @@ blockquote + div{
 }
 
 #button-container-3{
+	position: sticky;
 	float: right;
-	top: 1em;
-	right: -5em;
+	top: 4em;
+	right: 2em;
 }
 
 .button{
