@@ -4,12 +4,7 @@ body{
 	background-color: #000000;
 	color: #e7442a;
 	font-family: 'Antonio';
-	padding: 1em;
 	text-align: justify;
-	display: grid;
-	grid-template-columns: 18em 6em 1fr;
-	grid-template-rows: 3em min-content 1fr;
-	gap: 1em;
 }
 
 div,
@@ -96,6 +91,15 @@ blockquote + div{
 }
 
 /* Design */
+#left-container{
+	position: sticky;
+	padding: 1em;
+	display: grid;
+	grid-template-columns: 18em 6em;
+	grid-template-rows: 3em min-content 1fr;
+	gap: 1em;
+}
+
 .panel{
 	border-style: solid;
 	border-color: #2f3749;
@@ -113,8 +117,6 @@ blockquote + div{
 }
 
 #panel-3{
-	grid-column: 3;
-	grid-row: span 3;
 	border-width: 2em 6em;
 	border-radius: 1em;
 	padding: 1em 3em;
