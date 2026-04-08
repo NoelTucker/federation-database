@@ -100,7 +100,7 @@ blockquote + div{
 	top: 1em;
 	display: grid;
 	grid-template-columns: 18em 6em;
-	grid-template-rows: 3em min-content minmax(23em, auto);
+	grid-template-rows: 3em min-content minmax(23em, 1fr);
 	gap: 1em;
 }
 
