@@ -7,7 +7,7 @@ body{
 	margin: 1em;
 	text-align: justify;
 	display: grid;
-	grid-template-columns: 25em auto;
+	grid-template-columns: 25em fit-content;
 	gap: 1em;
 }
 
