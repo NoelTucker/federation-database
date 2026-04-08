@@ -8,6 +8,7 @@ body{
 	text-align: justify;
 	display: grid;
 	grid-template-columns: 25em 1fr;
+	grid-template-rows: 100%;
 	gap: 1em;
 }
 
