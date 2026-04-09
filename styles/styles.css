@@ -101,7 +101,7 @@ blockquote + div{
 	top: 1em;
 	display: grid;
 	grid-template-columns: 18em 6em;
-	grid-template-rows: 3em min-content minmax(23em, 1fr);
+	grid-template-rows: 3em min-content 1fr;
 	gap: 1em;
 }
 
@@ -136,14 +136,14 @@ blockquote + div{
 
 #button-container-1{
 	float: right;
-	margin: 1em -5em 0 0;
+	margin: 1em -5em 1em 0;
 }
 
 #button-container-2{
 	position: sticky;
 	top: 4em;
 	float: left;
-	margin: 0 0 0 -5em;
+	margin: 1em 0 1em -5em;
 }
 
 #button-container-2::before{
@@ -155,7 +155,7 @@ blockquote + div{
 	position: sticky;
 	top: 4em;
 	float: right;
-	margin: 0 -5em 0 0;
+	margin: 1em -5em 1em 0;
 }
 
 .button{
