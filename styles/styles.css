@@ -121,6 +121,8 @@ blockquote + div{
 }
 
 #panel-3{
+	position: sticky;
+	top: 1em;
 	border-width: 2em 6em;
 	border-radius: 1em;
 }
