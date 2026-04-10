@@ -191,6 +191,7 @@ blockquote + div{
 	font-size: 2em;
 	font-weight: bold;
 	line-height: 1em;
+	white-space: nowrap;
 	color: #e7442a;
 	background-color: #000000;
 	float: right;
