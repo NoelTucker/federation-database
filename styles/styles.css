@@ -97,8 +97,6 @@ blockquote + div{
 
 /* Design */
 #left-container{
-	position: sticky;
-	top: 1em;
 	display: grid;
 	grid-template-columns: 18em 6em;
 	grid-template-rows: 3em min-content 1fr;
@@ -111,11 +109,15 @@ blockquote + div{
 }
 
 #panel-1{
+	position: sticky;
+	top: 1em;
 	border-width: 0 6em 2em 0;
 	border-radius: 0 0 1em 0;
 }
 
 #panel-2{
+	position: sticky;
+	bottom: 1em;
 	border-width: 2em 6em 0 0;
 	border-radius: 0 1em 0 0;
 }
@@ -177,11 +179,15 @@ blockquote + div{
 }
 
 #control-button-1{
+	position: sticky;
+	top: 1em;
 	border-radius: 0 0 0 1em;
 	background-color: #9ea5ba;
 }
 
 #control-button-2{
+	position: sticky;
+	bottom: 1em;
 	border-radius: 1em 0 0 0;
 	background-color: #e7442a;
 }
@@ -221,58 +227,61 @@ blockquote + div{
 }
 
 #cascade{
+	position: sticky;
+	top: 5em;
+	overflow-y: auto;
 	grid-column: span 2;
 	text-align: right;
 	font-size: small;
 	color: #000000;
 }
 
-#cascade .row-one{
+#cascade .row-1{
 	animation: colorchange 2s infinite;
 	animation-delay: 0.1s;
 }
 
-#cascade .row-two{
+#cascade .row-2{
 	animation: colorchange 3s infinite;
 	animation-delay: 0.2s;
 }
 
-#cascade .row-three{
+#cascade .row-3{
 	animation: colorchange 3s infinite;
 	animation-delay: 0.3s;
 }
 
-#cascade .row-four{
+#cascade .row-4{
 	animation: colorchange 2s infinite;
 	animation-delay: 0.4s;
 }
 
-#cascade .row-five{
+#cascade .row-5{
 	animation: colorchange 3s infinite;
 	animation-delay: 0.5s;
 }
 
-#cascade .row-six{
+#cascade .row-6{
 	animation: colorchange 2s infinite;
 	animation-delay: 0.6s;
 }
 
-#cascade .row-seven{
+#cascade .row-7{
 	animation: colorchange 2s infinite;
 	animation-delay: 0.7s;
 }
 
-#cascade .row-eight{
+#cascade .row-8{
 	animation: colorchange 3s infinite;
 	animation-delay: 0.8s;
 }
 
-#cascade .row-nine{
+#cascade .row-9{
 	animation: colorchange 2s infinite;
 	animation-delay: 0.9s;
 }
 
-#cascade .row-ten{
+#cascade .row-10{
 	animation: colorchange 2s infinite;
 	animation-delay: 1.0s;
 }
