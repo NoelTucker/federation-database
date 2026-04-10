@@ -4,206 +4,204 @@ title.innerHTML = document.querySelector('h1').innerHTML === 'Home' ? 'Federatio
 
 // Design
 document.querySelector('#page-content').outerHTML = `
-	<div>
-		<div id="left-container">
-			<div id="panel-1" class="panel"></div>
-			<div id="control-button-1" class="button gray">LCARS 42028</div>
-			<table id="cascade">
-				<tbody>
-					<tr class="row-one">
-						<td>2385</td>
-						<td></td>
-						<td></td>
-						<td>8578232</td>
-						<td></td>
-						<td></td>
-						<td>9</td>
-						<td>5789</td>
-						<td>3882</td>
-						<td>5893</td>
-						<td>3489</td>
-						<td></td>
-						<td></td>
-						<td>365</td>
-						<td>846</td>
-						<td>9798</td>
-					</tr>
-					<tr class="row-two">
-						<td>2064</td>
-						<td></td>
-						<td></td>
-						<td>20080720</td>
-						<td></td>
-						<td></td>
-						<td>4</td>
-						<td>9776</td>
-						<td>626</td>
-						<td></td>
-						<td>126</td>
-						<td></td>
-						<td></td>
-						<td>97</td>
-						<td>6165</td>
-						<td>6626</td>
-					</tr>
-					<tr class="row-three">
-						<td>834</td>
-						<td></td>
-						<td></td>
-						<td>729111</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td>89</td>
-						<td>6589</td>
-						<td>6547</td>
-						<td>3465</td>
-						<td></td>
-						<td></td>
-						<td>867</td>
-						<td>2347</td>
-						<td>5762</td>
-					</tr>
-					<tr class="row-four">
-						<td>4768</td>
-						<td></td>
-						<td></td>
-						<td>8967284</td>
-						<td></td>
-						<td></td>
-						<td>7</td>
-						<td>9798</td>
-						<td>8969</td>
-						<td>476</td>
-						<td>8476</td>
-						<td></td>
-						<td></td>
-						<td>9479</td>
-						<td>982</td>
-						<td>8969</td>
-					</tr>
-					<tr class="row-five">
-						<td>685</td>
-						<td></td>
-						<td></td>
-						<td>3478</td>
-						<td></td>
-						<td></td>
-						<td>8</td>
-						<td>864</td>
-						<td>7146</td>
-						<td>347</td>
-						<td>429</td>
-						<td></td>
-						<td></td>
-						<td>840</td>
-						<td></td>
-						<td>897</td>
-					</tr>
-					<tr class="row-six">
-						<td>757</td>
-						<td></td>
-						<td></td>
-						<td>898990</td>
-						<td></td>
-						<td></td>
-						<td>1</td>
-						<td>200</td>
-						<td>285</td>
-						<td>923</td>
-						<td>387</td>
-						<td></td>
-						<td></td>
-						<td>238</td>
-						<td>578</td>
-						<td>5875</td>
-					</tr>
-					<tr class="row-seven">
-						<td>484</td>
-						<td></td>
-						<td></td>
-						<td>947589</td>
-						<td></td>
-						<td></td>
-						<td>6</td>
-						<td>569</td>
-						<td>68</td>
-						<td>678</td>
-						<td>56</td>
-						<td></td>
-						<td></td>
-						<td>584</td>
-						<td>678</td>
-						<td>476</td>
-					</tr>
-					<tr class="row-eight">
-						<td>8206</td>
-						<td></td>
-						<td></td>
-						<td>4735</td>
-						<td></td>
-						<td></td>
-						<td>5</td>
-						<td>201</td>
-						<td>647</td>
-						<td>1863</td>
-						<td>933</td>
-						<td></td>
-						<td></td>
-						<td>254</td>
-						<td>7913</td>
-						<td>4798</td>
-					</tr>
-					<tr class="row-nine">
-						<td>3472</td>
-						<td></td>
-						<td></td>
-						<td>1138</td>
-						<td></td>
-						<td></td>
-						<td>3</td>
-						<td>447</td>
-						<td></td>
-						<td>407</td>
-						<td>676</td>
-						<td></td>
-						<td></td>
-						<td>99</td>
-						<td>7103</td>
-						<td>3819</td>
-					</tr>
-					<tr class="row-ten">
-						<td>1701</td>
-						<td></td>
-						<td></td>
-						<td>33397</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td>834</td>
-						<td>753</td>
-						<td>204</td>
-						<td>59</td>
-						<td></td>
-						<td></td>
-						<td>806</td>
-						<td>2042</td>
-						<td>5047</td>
-					</tr>
-				</tbody>
-			</table>
-			<div id="panel-2" class="panel">
-				<div id="button-container-1" class="button-container">
-					<div id="button-1" class="button orange">01-558695</div>
-					<div id="button-2" class="button orange">02-771423</div>
-					<div id="button-3" class="button orange">03-109549</div>
-					<div id="button-4" class="button gray">04-896790</div>
-					<div id="button-5" class="button gray">05-947165</div>
-					<div id="button-6" class="button orange">06-906308</div>
-				</div>
+	<div id="left-container">
+		<div id="panel-1" class="panel"></div>
+		<div id="control-button-1" class="button gray">LCARS 42028</div>
+		<table id="cascade">
+			<tbody>
+				<tr class="row-1">
+					<td>2385</td>
+					<td></td>
+					<td></td>
+					<td>8578232</td>
+					<td></td>
+					<td></td>
+					<td>9</td>
+					<td>5789</td>
+					<td>3882</td>
+					<td>5893</td>
+					<td>3489</td>
+					<td></td>
+					<td></td>
+					<td>365</td>
+					<td>846</td>
+					<td>9798</td>
+				</tr>
+				<tr class="row-2">
+					<td>2064</td>
+					<td></td>
+					<td></td>
+					<td>20080720</td>
+					<td></td>
+					<td></td>
+					<td>4</td>
+					<td>9776</td>
+					<td>626</td>
+					<td></td>
+					<td>126</td>
+					<td></td>
+					<td></td>
+					<td>97</td>
+					<td>6165</td>
+					<td>6626</td>
+				</tr>
+				<tr class="row-3">
+					<td>834</td>
+					<td></td>
+					<td></td>
+					<td>729111</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>89</td>
+					<td>6589</td>
+					<td>6547</td>
+					<td>3465</td>
+					<td></td>
+					<td></td>
+					<td>867</td>
+					<td>2347</td>
+					<td>5762</td>
+				</tr>
+				<tr class="row-4">
+					<td>4768</td>
+					<td></td>
+					<td></td>
+					<td>8967284</td>
+					<td></td>
+					<td></td>
+					<td>7</td>
+					<td>9798</td>
+					<td>8969</td>
+					<td>476</td>
+					<td>8476</td>
+					<td></td>
+					<td></td>
+					<td>9479</td>
+					<td>982</td>
+					<td>8969</td>
+				</tr>
+				<tr class="row-5">
+					<td>685</td>
+					<td></td>
+					<td></td>
+					<td>3478</td>
+					<td></td>
+					<td></td>
+					<td>8</td>
+					<td>864</td>
+					<td>7146</td>
+					<td>347</td>
+					<td>429</td>
+					<td></td>
+					<td></td>
+					<td>840</td>
+					<td></td>
+					<td>897</td>
+				</tr>
+				<tr class="row-6">
+					<td>757</td>
+					<td></td>
+					<td></td>
+					<td>898990</td>
+					<td></td>
+					<td></td>
+					<td>1</td>
+					<td>200</td>
+					<td>285</td>
+					<td>923</td>
+					<td>387</td>
+					<td></td>
+					<td></td>
+					<td>238</td>
+					<td>578</td>
+					<td>5875</td>
+				</tr>
+				<tr class="row-7">
+					<td>484</td>
+					<td></td>
+					<td></td>
+					<td>947589</td>
+					<td></td>
+					<td></td>
+					<td>6</td>
+					<td>569</td>
+					<td>68</td>
+					<td>678</td>
+					<td>56</td>
+					<td></td>
+					<td></td>
+					<td>584</td>
+					<td>678</td>
+					<td>476</td>
+				</tr>
+				<tr class="row-8">
+					<td>8206</td>
+					<td></td>
+					<td></td>
+					<td>4735</td>
+					<td></td>
+					<td></td>
+					<td>5</td>
+					<td>201</td>
+					<td>647</td>
+					<td>1863</td>
+					<td>933</td>
+					<td></td>
+					<td></td>
+					<td>254</td>
+					<td>7913</td>
+					<td>4798</td>
+				</tr>
+				<tr class="row-9">
+					<td>3472</td>
+					<td></td>
+					<td></td>
+					<td>1138</td>
+					<td></td>
+					<td></td>
+					<td>3</td>
+					<td>447</td>
+					<td></td>
+					<td>407</td>
+					<td>676</td>
+					<td></td>
+					<td></td>
+					<td>99</td>
+					<td>7103</td>
+					<td>3819</td>
+				</tr>
+				<tr class="row-10">
+					<td>1701</td>
+					<td></td>
+					<td></td>
+					<td>33397</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>834</td>
+					<td>753</td>
+					<td>204</td>
+					<td>59</td>
+					<td></td>
+					<td></td>
+					<td>806</td>
+					<td>2042</td>
+					<td>5047</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="panel-2" class="panel">
+			<div id="button-container-1" class="button-container">
+				<div id="button-1" class="button orange">01-558695</div>
+				<div id="button-2" class="button orange">02-771423</div>
+				<div id="button-3" class="button orange">03-109549</div>
+				<div id="button-4" class="button gray">04-896790</div>
+				<div id="button-5" class="button gray">05-947165</div>
+				<div id="button-6" class="button orange">06-906308</div>
 			</div>
-			<div id="control-button-2" class="button orange">6539-456</div>
 		</div>
+		<div id="control-button-2" class="button orange">6539-456</div>
 	</div>
 	<div id="right-container">
 		<div id="panel-3" class="panel">
