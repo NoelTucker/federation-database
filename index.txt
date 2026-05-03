@@ -1,0 +1,15 @@
+The '''Federation Database''' is a Star Trek encyclopedia created and maintained by Noel Tucker that aims to comprehensively catalog his Star Trek headcanon. Noel is a life-long trekkie. Over the years, he has immersed himself in the depths of Star Trek's lore and created headcanon to fill in the gaps, rework certain plotlines, and supply additional context.
+
+== Star Trek history ==
+{
+* [[articles/Pre&ndash;First Contact Era]] ( &ndash;2063)
+* [[articles/Age of the Frontier]] (2063&ndash;2161)
+* [[articles/Early Federation Era]] (2161&ndash;2200)
+* [[articles/Age of Federation Expansion]] (2200&ndash;2250)
+* [[articles/Golden Age of Exploration]] (2250&ndash;2291)
+* [[articles/Age of Alliance]] (2291&ndash;2347)
+* [[articles/Federation Border Wars Era]] (2347&ndash;2366)
+* [[articles/Age of Instability]] (2366&ndash;2400)
+* [[articles/Golden Age]] (2400&ndash;2473)
+* [[articles/Temporal Cold War Era]] (2473&ndash; )
+}
