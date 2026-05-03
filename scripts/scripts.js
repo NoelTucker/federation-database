@@ -239,7 +239,7 @@ import {txtToHtml, htmlToTxt, fetchSourceText} from 'https://mrstarfleetcommand.
 				</div>
 				<article id="page-content">
 					<h1>${document.title === 'Federation Database' ? 'Home' : document.title}</h1>
-					${txtToHtml(sourceText)}
+					${txtToHtml(sourceText, 'federation-database')}
 					<footer id="footer">
 						<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
 						<p>All quotations on the Federation Database are used in a way believed to quality as fair use under United States copyright law. All other text is owned by Noel Tucker and is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
