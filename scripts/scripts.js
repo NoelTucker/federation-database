@@ -238,7 +238,7 @@ import {txtToHtml, htmlToTxt, fetchSourceText} from 'https://mrstarfleetcommand.
 					<div id="button-18" class="button gray">04-261697</div>
 				</div>
 				<article id="page-content">
-					<h1>${document.title === 'Federation Database' ? 'Home' : document.title}</h1>
+					<h1>${document.title}</h1>
 					${txtToHtml(sourceText, 'federation-database')}
 					<footer id="footer">
 						<p>Text &copy; 2024&ndash;2025 Noel Tucker</p>
@@ -311,7 +311,7 @@ import {txtToHtml, htmlToTxt, fetchSourceText} from 'https://mrstarfleetcommand.
 	});
 
 	// Title
-	document.title = `${document.title} | Federation Database`;
+	document.title = document.title === 'Home' ? 'Federation Database' : `${document.title} | Federation Database`;
 
 	// Button functions
 	document.querySelectorAll('.button-container > .gray').forEach(b => {b.onclick = beep1});
