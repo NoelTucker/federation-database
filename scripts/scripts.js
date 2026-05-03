@@ -1,14 +1,16 @@
 import {txtToHtml, htmlToTxt, fetchSourceText} from 'https://mrstarfleetcommand.github.io/parser.js';
 (async () => {
 	// Stylesheet link
-	const styling = document.head.append(document.createElement('link'));
+	const styling = document.createElement('link');
 	styling.rel = 'stylesheet';
 	styling.href = '/federation-database/styles/styles.css';
+	document.head.append(styling);
 
 	// Favicon
-	const favicon = document.head.append(document.createElement('link'));
+	const favicon = document.createElement('link');
 	favicon.rel = 'icon';
 	favicon.href = '/federation-database/images/favicon.svg';
+	document.head.append(favicon);
 
 	// Source text
 	const sourceText = await fetchSourceText();
