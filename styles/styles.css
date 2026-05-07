@@ -5,8 +5,7 @@ body{
 	color: #e7442a;
 	font-family: 'Antonio';
 	text-align: justify;
-	margin: 0;
-	padding: 1em;
+	margin: 1em;
 	display: grid;
 	grid-template-columns: 25em 1fr;
 	grid-template-rows: 100%;
