@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700');
 
 body{
 	background-color: #000000;
 	color: #e7442a;
-	font-family: 'Antonio';
+	font-family: 'Antonio', sans-serif;
 	text-align: justify;
 	margin: 1em;
 	display: grid;
